@@ -19,7 +19,7 @@ const TaskForm = ({ fetchTasks }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // 🔥 Validation
+    //  Validation
     if (!form.title.trim() || !form.description.trim()) {
       return toast.error("Title and Description both are required ❗");
     }
