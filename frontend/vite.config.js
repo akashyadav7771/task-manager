@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  base: process.env.VITE_BASE_PATH || "/task-manager"
+  base: process.env.VITE_BASE_PATH || "/"
 })
+
